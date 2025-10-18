@@ -32,4 +32,5 @@ class Contato:
     def __str__(self):
         estrela = "⭐" if self.favoritoCtt else ""
         endereco = "NÃO INFORMADO" if self.endereco == "" else self.endereco
+
         return f"{self.nome} {self.celular} ENDEREÇO: {endereco} {estrela}"
